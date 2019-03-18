@@ -106,7 +106,7 @@ transition: 1s ease;}
   transform: scale(1.5);
  transition: 1s ease;}
 #justyna {
-  border-radius: 250px;
+  border-radius: 50%;
   margin: 50px;
 }
 
