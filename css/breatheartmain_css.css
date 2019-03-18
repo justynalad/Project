@@ -86,13 +86,27 @@ li:hover{
   transition: 0.6s ease;
 }
 
-.aboutus_image {
-  display: flex;
-  margin: 0 auto;
-  padding: 200px;
-  border-radius: 1300px:
-  justify-co
-}
-.aboutus_image:hover
- {transform: scale(1.5);
+.images2 {
+  display:flex;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 50px;
+  }
+
+#leonie:hover {
+ transform: scale(1.5);
 transition: 1s ease;}
+
+#leonie {
+  margin: 50px;
+  border-radius: 1300px;
+}
+
+#justyna:hover {
+  transform: scale(1.5);
+ transition: 1s ease;}
+#justyna {
+  border-radius: 250px;
+  margin: 50px;
+}
+
