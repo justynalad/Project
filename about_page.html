@@ -38,17 +38,24 @@
       <img src="images/eating_justyna.jpg" alt="Justyna" width="200px"> </div>
      </div>
      
-  <h3> Your feedback </h3>
-    <input type="email" placeholder="We'd love ot get back to you">
+<div class="container">
+    <h3> Contact Form </h3>
+    <h4> Tell us what you thought about our webstie or ask questions and make suggestions in the form below </h4>
 
-    <form>
-      <input type="text" placeholder="Tell us what you think">
-      <input type="radio" value="I want to be in your fancy newsletter">
-      <br>
-      <input type="radio" value="I want more information">
-      <br>
-      <input type="submit" value="submit">
-    </form>
+  <form action="/action_page.php">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="contact_info">Your Contact Information</label>
+    <input type="text" id="contact_info" name="contact" placeholder="Your e-mail, phone, etc...">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something nice" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
 
 
      </form>
