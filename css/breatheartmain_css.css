@@ -16,6 +16,7 @@
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
+  font-family: 'Pacifico', cursive;
   color:  #009966;
   display: block;
   transition: 0.3s;
@@ -71,6 +72,7 @@ font-size: 1.5em;
 padding: 60px;
 color: white;
 font-style: oblique;
+font-family: 'Pacifico', cursive;
 }
 
 ul{
@@ -149,4 +151,10 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 
+}
+h3,h1 {
+  font-family: 'Pacifico', cursive;
+}
+p {
+  font-family: 'Raleway', sans-serif;
 }
