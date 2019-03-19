@@ -44,7 +44,9 @@
 
     <h1> Breathe Art </h1>
     <h3> About Breathe Art </h3>
+     </div>
     <p> things about us and other mindful shit</p>
+
 
     <h3> Your feedback </h3>
 
@@ -62,7 +64,44 @@
       <input type="submit" name="submit">
     </form>
 
+   <div class="images2">
+      <div id="leonie">
+      <img src="images/laughing_leonie.jpg" alt="Leonie" width="200px"> </div>
 
-     </form>
+      <div id="justyna">
+      <img src="images/eating_justyna.jpg" alt="Justyna" width="200px"> </div>
+     </div>
+
+<div class="container">
+    <h3> Contact Form </h3>
+    <h4> Tell us what you thought about our webstie or ask questions and make suggestions in the form below </h4>
+
+  <form action="/action_page.php">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+
+    <label for="contact_info">Your Contact Information</label>
+    <input type="text" id="contact_info" name="contact" placeholder="Your e-mail, phone, etc...">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something nice" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
 
 </body>
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+
+    </html>

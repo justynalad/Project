@@ -86,9 +86,67 @@ li:hover{
   transition: 0.6s ease;
 }
 
+
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-} 
+}
+
+.images2 {
+  display:flex;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 50px;
+  }
+
+#leonie:hover {
+ transform: scale(1.5);
+transition: 1s ease;}
+
+#leonie {
+  margin: 50px;
+  border-radius: 1300px;
+}
+
+#justyna:hover {
+  transform: scale(1.5);
+ transition: 1s ease;}
+#justyna {
+  border-radius: 50%;
+  margin: 50px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  border-radius: 50%;
+}
+
+.container {
+  width: 50%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
