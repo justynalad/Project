@@ -6,7 +6,7 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #e6fff7; /* Black */
+  background-color: #e6fff7;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px;
 }
@@ -37,13 +37,13 @@
 
 .openbtn {
   font-size: 20px;
+  font-family: 'Pacifico', cursive;
   cursor: pointer;
   background-color: #7FFFD4;
   color: white;
   padding: 10px 15px;
   border: none;
   position: absolute;
-
 }
 
 .openbtn:hover {
@@ -78,6 +78,8 @@ font-family: 'Pacifico', cursive;
 ul{
   list-style: none;
   display: flex;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
 }
 li{
   margin: 0 20px;
@@ -89,13 +91,17 @@ li:hover{
 }
 
 
-img {
+.carousel-inner {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
 }
-
+img{
+  display: flex;
+  margin: 0 auto;
+  padding: 0px;
+}
 .images2 {
   display:flex;
   padding: 10px;
@@ -105,7 +111,7 @@ img {
 
 #leonie:hover {
  transform: scale(1.5);
-transition: 1s ease;}
+ transition: 1s ease;}
 
 #leonie {
   margin: 50px;
@@ -114,7 +120,7 @@ transition: 1s ease;}
 
 #justyna:hover {
   transform: scale(1.5);
- transition: 1s ease;}
+  transition: 1s ease;}
 #justyna {
   border-radius: 50%;
   margin: 50px;
@@ -145,16 +151,32 @@ input[type=submit]:hover {
   border-radius: 50%;
 }
 
-.container {
-  width: 50%;
+.contact_form {
+  width: 700px;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-
-}
-h3,h1 {
   font-family: 'Pacifico', cursive;
+  justify-content: center;
+  align-items: center;
+}
+h1,h2,h3 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
 }
 p {
   font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+.exercise{
+  text-align: center;
+  margin: 100px;
+}
+body{
+  background-color: #e6fff7;
+}
+.container {
+  background-color: white;
+  font-family: 'Pacifico', cursive;
+  justify-content: center;
 }
