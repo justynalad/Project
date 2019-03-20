@@ -96,26 +96,26 @@ li:hover{
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-}
+  }
 img{
   display: flex;
   margin: 0 auto;
   padding: 0px;
+  object-fit:scale-down
 }
 .images2 {
   display:flex;
   padding: 10px;
   justify-content: center;
-  border-radius: 50px;
   }
 
+#leonie {
+    margin: 50px;
+    border-radius:250px;
+  }
 #leonie:hover {
  transform: scale(1.5);
- transition: 1s ease;}
-
-#leonie {
-  margin: 50px;
-  border-radius: 1300px;
+ transition: 1s ease;
 }
 
 #justyna:hover {
