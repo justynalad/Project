@@ -101,7 +101,7 @@ img{
   display: flex;
   margin: 0 auto;
   padding: 0px;
-  object-fit:scale-down
+  object-fit: scale-down;
 }
 .images2 {
   display:flex;
