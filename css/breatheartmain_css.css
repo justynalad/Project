@@ -57,9 +57,9 @@
 }
 
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+@media screen and (max-height: 300px) {
+  .sidenav {padding-top: 10px;}
+  .sidenav a {font-size: 5px;}
 }
 
 
@@ -79,6 +79,7 @@ ul{
   list-style: none;
   display: flex;
   justify-content: center;
+  : center;
   font-family: 'Raleway', sans-serif;
 }
 li{
